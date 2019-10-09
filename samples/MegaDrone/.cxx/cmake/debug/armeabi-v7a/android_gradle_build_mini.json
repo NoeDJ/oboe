@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\MegaDrone\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Android\\AndroidStudioProjects\\oboe\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\AndroidStudioProjects\\oboe\\samples\\MegaDrone\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "megadrone-Debug-armeabi-v7a": {
+      "artifactName": "megadrone",
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\AndroidStudioProjects\\oboe\\samples\\MegaDrone\\.cxx\\cmake\\debug\\armeabi-v7a --target megadrone",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\MegaDrone\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libmegadrone.so"
+    },
+    "oboe-Debug-armeabi-v7a": {
+      "artifactName": "oboe",
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\AndroidStudioProjects\\oboe\\samples\\MegaDrone\\.cxx\\cmake\\debug\\armeabi-v7a --target oboe",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\MegaDrone\\.cxx\\cmake\\debug\\armeabi-v7a\\oboe-bin\\liboboe.a"
+    }
+  }
+}

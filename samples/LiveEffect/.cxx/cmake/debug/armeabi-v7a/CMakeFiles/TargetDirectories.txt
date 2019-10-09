@@ -1,0 +1,14 @@
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/liveEffect.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/install.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/install/local.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/list_install_components.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/install/strip.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/oboe.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/edit_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/install.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/install/local.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/rebuild_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/list_install_components.dir
+C:/Android/AndroidStudioProjects/oboe/samples/LiveEffect/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/install/strip.dir

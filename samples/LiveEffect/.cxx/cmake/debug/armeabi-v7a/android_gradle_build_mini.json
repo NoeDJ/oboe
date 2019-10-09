@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\LiveEffect\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Android\\AndroidStudioProjects\\oboe\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\AndroidStudioProjects\\oboe\\samples\\LiveEffect\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "oboe-Debug-armeabi-v7a": {
+      "artifactName": "oboe",
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\AndroidStudioProjects\\oboe\\samples\\LiveEffect\\.cxx\\cmake\\debug\\armeabi-v7a --target oboe",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\LiveEffect\\.cxx\\cmake\\debug\\armeabi-v7a\\oboe-bin\\liboboe.a"
+    },
+    "liveEffect-Debug-armeabi-v7a": {
+      "artifactName": "liveEffect",
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\AndroidStudioProjects\\oboe\\samples\\LiveEffect\\.cxx\\cmake\\debug\\armeabi-v7a --target liveEffect",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\LiveEffect\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libliveEffect.so"
+    }
+  }
+}

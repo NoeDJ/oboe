@@ -1,0 +1,14 @@
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/CMakeFiles/hello-oboe.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/CMakeFiles/install.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/CMakeFiles/install/local.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/CMakeFiles/list_install_components.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/CMakeFiles/install/strip.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/oboe-bin/CMakeFiles/oboe.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/oboe-bin/CMakeFiles/edit_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/oboe-bin/CMakeFiles/install.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/oboe-bin/CMakeFiles/install/local.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/oboe-bin/CMakeFiles/rebuild_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/oboe-bin/CMakeFiles/list_install_components.dir
+C:/Android/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86_64/oboe-bin/CMakeFiles/install/strip.dir

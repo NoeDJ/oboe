@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "C:\\Android\\SDK\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Android\\SDK\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
+    "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\" native-lib",
+      "abi": "x86",
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}

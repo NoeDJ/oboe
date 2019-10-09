@@ -1,0 +1,14 @@
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/CMakeFiles/megadrone.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/CMakeFiles/install.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/CMakeFiles/install/local.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/CMakeFiles/list_install_components.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/CMakeFiles/install/strip.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/oboe.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/edit_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/install.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/install/local.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/rebuild_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/list_install_components.dir
+C:/Android/AndroidStudioProjects/oboe/samples/MegaDrone/.cxx/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/install/strip.dir

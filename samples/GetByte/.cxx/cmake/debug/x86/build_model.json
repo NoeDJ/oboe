@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples",
+      "sdkFolder": "C:\\Android\\SDK",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\build\\intermediates",
+      "gradleModulePathName": ":GetByte",
+      "moduleRootFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte",
+      "makeFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\.cxx",
+      "cxxFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx",
+      "ndkFolder": "C:\\Android\\SDK\\ndk\\20.0.5594570",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++14"
+    ],
+    "variantName": "debug",
+    "soFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 26,
+  "cxxBuildFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86",
+  "jsonFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cxx\\debug\\x86",
+  "objFolder": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "buildCommandFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\\build_command.txt",
+  "buildOutputFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\\build_output.txt",
+  "modelOutputFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cxx\\debug\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cxx\\debug\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cxx\\debug\\x86\\build_generation_state.json",
+    "cacheKeyFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cxx\\debug\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cxx\\debug\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cxx\\debug\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cxx\\debug\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\\compile_commands.json"
+}

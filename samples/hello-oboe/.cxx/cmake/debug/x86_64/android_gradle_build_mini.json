@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\hello-oboe\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Android\\AndroidStudioProjects\\oboe\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\AndroidStudioProjects\\oboe\\samples\\hello-oboe\\.cxx\\cmake\\debug\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "hello-oboe-Debug-x86_64": {
+      "artifactName": "hello-oboe",
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\AndroidStudioProjects\\oboe\\samples\\hello-oboe\\.cxx\\cmake\\debug\\x86_64 --target hello-oboe",
+      "abi": "x86_64",
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\hello-oboe\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libhello-oboe.so"
+    },
+    "oboe-Debug-x86_64": {
+      "artifactName": "oboe",
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\AndroidStudioProjects\\oboe\\samples\\hello-oboe\\.cxx\\cmake\\debug\\x86_64 --target oboe",
+      "abi": "x86_64",
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\hello-oboe\\.cxx\\cmake\\debug\\x86_64\\oboe-bin\\liboboe.a"
+    }
+  }
+}
