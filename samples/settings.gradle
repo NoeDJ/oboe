@@ -20,4 +20,4 @@ include ':hello-oboe'
 include ':RhythmGame'
 include ':MegaDrone'
 include ':LiveEffect'
-
+include ':GetByte'
