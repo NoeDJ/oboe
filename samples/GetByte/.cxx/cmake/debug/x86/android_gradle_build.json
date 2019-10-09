@@ -1,10 +1,12 @@
 {
   "stringTable": {
     "0": "C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86",
-    "1": "--target=i686-none-linux-android26 --gcc-toolchain=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++14 -O0 -fno-limit-debug-info -fPIC"
+    "1": "--target=i686-none-linux-android26 --gcc-toolchain=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DGetByte_EXPORTS -DOBOE_ENABLE_LOGGING=1 -IC:/Android/AndroidStudioProjects/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++14 -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=i686-none-linux-android26 --gcc-toolchain=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DOBOE_ENABLE_LOGGING=1 -I../../../../../../src -I../../../../../../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++14 -O0 -fno-limit-debug-info -fPIC -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror"
   },
   "buildFiles": [
     "C:\\Android\\SDK\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Android\\AndroidStudioProjects\\oboe\\CMakeLists.txt",
     "C:\\Android\\SDK\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
     "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\src\\main\\cpp\\CMakeLists.txt"
   ],
@@ -13,12 +15,268 @@
   ],
   "buildTargetsCommand": "C:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
-    "native-lib-Debug-x86": {
-      "buildCommand": "C:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\" native-lib",
+    "oboe-Debug-x86": {
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\" oboe",
       "buildType": "debug",
       "toolchain": "393752025",
       "abi": "x86",
-      "artifactName": "native-lib",
+      "artifactName": "oboe",
+      "files": [
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\aaudio\\AAudioLoader.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\aaudio\\AudioStreamAAudio.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\AudioSourceCaller.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\AudioStream.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\AudioStreamBuilder.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\DataConversionFlowGraph.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\FilterAudioStream.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\FixedBlockAdapter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\FixedBlockReader.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\FixedBlockWriter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\LatencyTuner.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\SourceFloatCaller.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\SourceI16Caller.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\Utilities.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\QuirksManager.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoBuffer.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoController.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoControllerBase.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\fifo\\FifoControllerIndirect.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\AudioProcessorBase.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\ClipToRange.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\ManyToMultiConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\MonoToMultiConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\RampLinear.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SampleRateConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkFloat.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkI16.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SinkI24.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceFloat.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceI16.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\SourceI24.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\IntegerRatio.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\LinearResampler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\MultiChannelResampler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\PolyphaseResampler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\PolyphaseResamplerMono.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\PolyphaseResamplerStereo.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\SincResampler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\flowgraph\\resampler\\SincResamplerStereo.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioInputStreamOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioOutputStreamOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioStreamBuffered.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\opensles\\AudioStreamOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\opensles\\EngineOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\opensles\\OpenSLESUtilities.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\opensles\\OutputMixerOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\StabilizedCallback.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\Trace.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\common\\Version.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\\oboe-bin\\liboboe.a"
+    },
+    "GetByte-Debug-x86": {
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\" GetByte",
+      "buildType": "debug",
+      "toolchain": "393752025",
+      "abi": "x86",
+      "artifactName": "GetByte",
       "files": [
         {
           "src": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\src\\main\\cpp\\native-lib.cpp",
@@ -27,7 +285,7 @@
         }
       ],
       "headers": [],
-      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\build\\intermediates\\cmake\\debug\\obj\\x86\\libGetByte.so"
     }
   },
   "toolchains": {

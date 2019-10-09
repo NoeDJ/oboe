@@ -25,6 +25,14 @@
   },
   {
     "level": "INFO",
+    "message": "- a dependent build file changed"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\src\\main\\cpp\\CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
     "message": "removing stale contents from \u0027C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\u0027"
   },
   {

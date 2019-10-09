@@ -4,14 +4,17 @@
 # Sets the minimum version of CMake required to build the native library.
 
 cmake_minimum_required(VERSION 3.4.1)
+project(liveEffect LANGUAGES C CXX)
 
-# Creates and names a library, sets it as either STATIC
-# or SHARED, and provides the relative paths to its source code.
-# You can define multiple libraries, and CMake builds them for you.
-# Gradle automatically packages shared libraries with your APK.
+get_filename_component(SAMPLE_ROOT_DIR
+        ${CMAKE_CURRENT_SOURCE_DIR}/../../../.. ABSOLUTE)
+
+### INCLUDE OBOE LIBRARY ###
+set (OBOE_DIR ${SAMPLE_ROOT_DIR}/..)
+add_subdirectory(${OBOE_DIR} ./oboe-bin)
 
 add_library( # Sets the name of the library.
-        native-lib
+        GetByte
 
         # Sets the library as a shared library.
         SHARED
@@ -37,8 +40,9 @@ find_library( # Sets the name of the path variable.
 # build script, prebuilt third-party libraries, or system libraries.
 
 target_link_libraries( # Specifies the target library.
-        native-lib
-
-        # Links the target library to the log library
-        # included in the NDK.
+        GetByte
+    PRIVATE
+        oboe
+        android
+        atomic
         ${log-lib})
