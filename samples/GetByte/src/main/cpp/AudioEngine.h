@@ -6,9 +6,16 @@
 #define SAMPLES_AUDIOENGINE_H
 
 
+#include <oboe/Oboe.h>
+
+
 class AudioEngine {
 
+    void start();
+
 };
+
+
 
 
 #endif //SAMPLES_AUDIOENGINE_H

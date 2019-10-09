@@ -7,6 +7,12 @@
 
 {
   "directory": "C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86",
+  "command": "C:\\Android\\SDK\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DGetByte_EXPORTS -DOBOE_ENABLE_LOGGING=1 -IC:/Android/AndroidStudioProjects/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++14 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\GetByte.dir\\AudioEngine.cpp.o -c C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\src\\main\\cpp\\AudioEngine.cpp",
+  "file": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\src\\main\\cpp\\AudioEngine.cpp"
+},
+
+{
+  "directory": "C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86",
   "command": "C:\\Android\\SDK\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/SDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++14 -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror -o oboe-bin\\CMakeFiles\\oboe.dir\\src\\aaudio\\AAudioLoader.cpp.o -c C:\\Android\\AndroidStudioProjects\\oboe\\src\\aaudio\\AAudioLoader.cpp",
   "file": "C:\\Android\\AndroidStudioProjects\\oboe\\src\\aaudio\\AAudioLoader.cpp"
 },
