@@ -1,0 +1,6 @@
+include ':hello-oboe', ':audio-device', ':RhythmGame', ':LiveEffect', ':MegaDrone'
+project(':hello-oboe').projectDir = new File('samples/hello-oboe')
+project(':audio-device').projectDir = new File('samples/audio-device')
+project(':RhythmGame').projectDir = new File('samples/RhythmGame')
+project(':LiveEffect').projectDir = new File('samples/LiveEffect')
+project(':MegaDrone').projectDir = new File('samples/MegaDrone')
