@@ -10,7 +10,7 @@
 
 
 class AudioEngine {
-
+    bool isRecording = true;
     void start();
 
 };

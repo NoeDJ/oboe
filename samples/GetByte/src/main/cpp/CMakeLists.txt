@@ -14,7 +14,7 @@ set (OBOE_DIR ${SAMPLE_ROOT_DIR}/..)
 add_subdirectory(${OBOE_DIR} ./oboe-bin)
 
 add_library( # Sets the name of the library.
-        GetByte
+        native-lib
 
         # Sets the library as a shared library.
         SHARED
@@ -41,7 +41,7 @@ find_library( # Sets the name of the path variable.
 # build script, prebuilt third-party libraries, or system libraries.
 
 target_link_libraries( # Specifies the target library.
-        GetByte
+        native-lib
     PRIVATE
         oboe
         android

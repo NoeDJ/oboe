@@ -2,7 +2,7 @@
 // Created by MATABUMI 01 on 10/9/2019.
 //
 
-#include <oboe/AudioStreamBuilder.h>
+#include <oboe/oboe.h>
 #include "AudioEngine.h"
 #include "../../../../debug-utils/logging_macros.h"
 
@@ -18,23 +18,35 @@ void AudioEngine::start(){
     oboe::AudioStream *stream;
     oboe::Result result = builder.openStream(&stream);
     if (result != oboe::Result::OK){
-        __android_log_print(ANDROID_LOG_ERROR,
-                            "AudioEngine",
-                            "Error opening stream %s",
-                            convertToText(result));
+        LOGE("Error opening stream. Error: %s", oboe::convertToText(result));
     }
 
     result = stream -> requestStart();
     if (result != oboe::Result::OK){
-        __android_log_print(ANDROID_LOG_ERROR,
-                            "AudioEngine",
-                            "Error starting stream %s",
-                            convertToText(result));
-
+        LOGE("Error starting stream. Error: %s", oboe::convertToText(result));
     }
 
+    constexpr int kMilisecondstorecord = 2;
+    const int32_t requestedFrames = (int32_t)(kMilisecondstorecord * (stream->getSampleRate()/oboe::kMillisPerSecond));
+    int16_t mybuffer[requestedFrames];
 
+    constexpr int64_t kTimeoutvalue = 3 * oboe::kNanosPerMillisecond;
+    int framesRead = 0;
+    do{
+        auto result1 = stream->read(mybuffer,stream->getBufferSizeInFrames(),0);
+        if (result1 != oboe::Result::OK) break;
+        framesRead = result1.value();
+    } while (framesRead != 0);
 
+    while (isRecording){
+        auto result2 = stream->read(mybuffer, requestedFrames, kTimeoutvalue);
+        if (result2 == oboe::Result::OK){
+            LOGD("Read %d frames", result2.value());
+        } else{
+            LOGE("Error reading stream. Error: %s", oboe::convertToText(result2.error()));
+        }
+    }
+    stream->close();
 }
 
 
