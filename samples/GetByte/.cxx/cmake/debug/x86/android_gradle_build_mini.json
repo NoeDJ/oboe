@@ -16,11 +16,11 @@
       "abi": "x86",
       "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\\oboe-bin\\liboboe.a"
     },
-    "GetByte-Debug-x86": {
-      "artifactName": "GetByte",
-      "buildCommand": "C:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\" GetByte",
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\.cxx\\cmake\\debug\\x86\" native-lib",
       "abi": "x86",
-      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\build\\intermediates\\cmake\\debug\\obj\\x86\\libGetByte.so"
+      "output": "C:\\Android\\AndroidStudioProjects\\oboe\\samples\\GetByte\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
     }
   }
 }

@@ -1,8 +1,8 @@
-C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
-C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/CMakeFiles/GetByte.dir
+C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/CMakeFiles/native-lib.dir
 C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/CMakeFiles/install/local.dir
 C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/CMakeFiles/install.dir
 C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
 C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/CMakeFiles/list_install_components.dir
 C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/CMakeFiles/install/strip.dir
 C:/Android/AndroidStudioProjects/oboe/samples/GetByte/.cxx/cmake/debug/x86/oboe-bin/CMakeFiles/oboe.dir

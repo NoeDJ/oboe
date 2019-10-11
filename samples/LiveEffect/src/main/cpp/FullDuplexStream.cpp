@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+#include <logging_macros.h>
 #include "FullDuplexStream.h"
 
 oboe::DataCallbackResult FullDuplexStream::onAudioReady(
@@ -74,6 +75,8 @@ oboe::DataCallbackResult FullDuplexStream::onAudioReady(
                     mInputBuffer.get(), framesRead,
                     audioData, numFrames
             );
+            int32_t bPF = mInputStream->getBytesPerFrame();
+            LOGD("Read %d frames", bPF);
         }
     }
 
